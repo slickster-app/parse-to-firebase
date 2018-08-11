@@ -1,7 +1,7 @@
 const argv = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
 
-if (!argv.in && !argv.out) {
+if (!argv.in || !argv.out) {
     console.info('Usage: node convert-users --in=path/to/source --out=path/to/output [--includeSocials]');
     return;
 }
