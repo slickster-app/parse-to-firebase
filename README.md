@@ -1,6 +1,8 @@
 # parse-to-firebase
 JSON Users data conversion tool to convert from Parse to the structure that is able to import to Firebase.
 
+### Note: The input file must be JSON.
+
 Setup:
 ```
 yarn install
@@ -8,5 +10,5 @@ yarn install
 
 Usage:
 ```
-node ./convert-users --input=path/to/parse-users.json --output=path/to/output.json [--includeSocials]
+node ./convert-users --in=path/to/parse-users.json --out=path/to/output.json [--includeSocials]
 ```
