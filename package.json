@@ -1,0 +1,12 @@
+{
+  "name": "parse-to-firebase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:slickster-app/parse-to-firebase.git",
+  "author": "Chonnarong Hanyawongse <chonnarong@nonagon.co.th>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "minimist": "^1.2.0"
+  }
+}
